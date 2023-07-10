@@ -92,13 +92,37 @@
   padding: 54px 68px 0px 68px;
   background: rgba(71, 125, 17, 0.15);
 }
-.featured-flower-name{
-    position: absolute;
-    bottom: -30px;
-    width: 330px;
-   text-align: center;
-   right: 0px;
-   text-decoration: underline;
+.featured-flower-name {
+  position: absolute;
+  bottom: -30px;
+  width: 330px;
+  text-align: center;
+  right: 0px;
+  text-decoration: underline;
 }
 /* Featured flower finished */
 
+/* Service style started */
+
+.service {
+  width: 1055px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  align-items: center;
+  gap: 70px;
+}
+.service-1{
+    padding:86px 0px 86px 0px
+}
+.service-1 img{
+    display: block;
+    margin: 0 auto;
+}
+.service-tag{
+    margin-top: 10px;
+}
+/* Service style finished */
