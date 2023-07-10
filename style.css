@@ -167,3 +167,38 @@ margin-bottom: 28px;
 }
 
 /* Deal section finished */
+
+/* Instragram section started */
+
+.instragram-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.instragram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.instragram-description{
+
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 17px;
+    line-height: 30px;
+    width: 590px;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 45px;
+}
+.instragram-gallary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.instragram-gallary img{
+    width: 250px;
+}
+/* Instragram section finished */
+
