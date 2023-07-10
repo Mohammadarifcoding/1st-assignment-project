@@ -4,6 +4,18 @@
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
 }
+.primary-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 40px;
+  border-radius: 8px;
+  background-color: #e55473;
+  border: 2px solid #e55473;
+}
+.primary-btn:hover {
+    background-color: #c92a4d;
+  }
 /* Header section design started */
 .header-section {
   background: rgba(229, 84, 115, 0.1);
@@ -29,18 +41,8 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
-.header-text-button {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 16px 40px;
-  border-radius: 8px;
-  background-color: #e55473;
-  border: 2px solid #e55473;
-}
-.header-text-button:hover {
-  background-color: #c92a4d;
-}
+
+
 /* Header section design finished*/
 
 /* Featured flower started */
@@ -115,14 +117,53 @@
   align-items: center;
   gap: 70px;
 }
-.service-1{
-    padding:86px 0px 86px 0px
+.service-1 {
+  padding: 86px 0px 86px 0px;
 }
-.service-1 img{
-    display: block;
-    margin: 0 auto;
+.service-1 img {
+  display: block;
+  margin: 0 auto;
 }
-.service-tag{
-    margin-top: 10px;
+.service-tag {
+  margin-top: 10px;
+  color: rgba(39, 39, 39, 0.8);
 }
 /* Service style finished */
+/* Deal section started */
+.deal {
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:550px;
+  gap: 110px;
+}
+.deal-text{
+    width: 495px;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 32px;
+  font-weight: 1000;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 15px;
+line-height: 20px;
+margin-bottom: 28px;
+
+}
+.deal-btn{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Deal section finished */
