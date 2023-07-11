@@ -14,8 +14,8 @@
   border: 2px solid #e55473;
 }
 .primary-btn:hover {
-    background-color: #c92a4d;
-  }
+  background-color: #c92a4d;
+}
 /* Header section design started */
 .header-section {
   background: rgba(229, 84, 115, 0.1);
@@ -41,7 +41,6 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
-
 
 /* Header section design finished*/
 
@@ -82,11 +81,11 @@
 .featured-flower-container .item img {
   width: 200px;
 }
-.featured-flower-container .image-no-1{
- position: relative;
- bottom: -3px;
+.featured-flower-container .image-no-1 {
+  position: relative;
+  bottom: -3px;
 }
-.featured-flower-container .image-no-3{
+.featured-flower-container .image-no-3 {
   position: relative;
   bottom: -13px;
 }
@@ -145,11 +144,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height:550px;
+  height: 550px;
   gap: 110px;
 }
-.deal-text{
-    width: 495px;
+.deal-text {
+  width: 495px;
 }
 
 .deal-title {
@@ -158,143 +157,166 @@
   font-weight: 1000;
   text-align: center;
   margin-bottom: 20px;
-
 }
-.deal-description{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 15px;
-line-height: 20px;
-margin-bottom: 28px;
-
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 28px;
 }
-.deal-btn{
-    margin: 0 auto;
-    display: block;
+.deal-btn {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Deal section finished */
 
 /* Instragram section started */
 
-.instragram-section{
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-.instragram-title{
-    color: #272727;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 22px;
-}
-.instragram-description{
-
-    color: rgba(39, 39, 39, 0.6);
-    font-size: 17px;
-    line-height: 30px;
-    width: 590px;
-   text-align: center;
-   margin: 0 auto;
-   margin-bottom: 45px;
-}
-.instragram-gallary{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.instragram-gallary img{
-    width: 250px;
-}
-/* Instragram section finished */
-
-/* Latest section started */
-  .latest-deal-section{
-    width:1055px ;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    background-image: url(image/Rectangle\ 9.png);
-    margin-bottom: 30px;
-    height: 330px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .latest-titel{
-    color: #272727;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 22px;
-  }
-  .latest-description{
-    color: rgba(39, 39, 39, 0.6);
-    font-size: 17px;
-    line-height: 30px;
-    width: 590px;
-   text-align: center;
-   margin: 0 auto;
-   margin-bottom: 45px;
-  }
-  .latest-deal-section input{
-    width: 525px;
-    height: 58px;
-    padding: 20px;
-    margin-right: 40px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
-  }
-
-/* Latest section finished */
-/* Customer review section started */
-
-.review-section{
+.instragram-section {
   margin-top: 120px;
   margin-bottom: 120px;
-  text-align: center;
 }
-.review-title{
+.instragram-title {
   color: #272727;
   text-align: center;
   font-size: 35px;
   font-weight: 800;
   margin-bottom: 22px;
 }
-.review-description{
-  
+.instragram-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 17px;
   line-height: 30px;
   width: 590px;
- text-align: center;
- margin: 0 auto;
- margin-bottom: 45px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
-.customer-review-container{
+.instragram-gallary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.instragram-gallary img {
+  width: 250px;
+}
+/* Instragram section finished */
+
+/* Latest section started */
+.latest-deal-section {
+  width: 1055px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-image: url(image/Rectangle\ 9.png);
+  margin-bottom: 30px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.latest-titel {
+  color: #272727;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+.latest-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 17px;
+  line-height: 30px;
+  width: 590px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+.latest-deal-section input {
+  width: 525px;
+  height: 58px;
+  padding: 20px;
+  margin-right: 40px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+}
+
+/* Latest section finished */
+/* Customer review section started */
+
+.review-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+.review-title {
+  color: #272727;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+.review-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 17px;
+  line-height: 20px;
+  width: 590px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+.customer-review-container {
   display: flex;
   gap: 40px;
   justify-content: center;
   align-items: center;
 }
-.customer-review{
+.customer-review {
   height: 290px;
   width: 290px;
-  background-color: #EBDFED;
+  background-color: #ebdfed;
   padding: 30px;
-  /* border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px; */
   border-radius: 50%;
   border: 5px solid #c92a4d;
-  
 }
-.review{
+.review {
   font-family: sans-serif;
   font-weight: 600;
   font-size: 13px;
   margin-top: 10px;
 }
 /* Customer review section finished */
+/* Footer section added */
+
+.footer-section {
+  background-color: #111010;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  font-size: 32px;
+  margin-bottom: 22px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 580px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-rights {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Footer section finished */
