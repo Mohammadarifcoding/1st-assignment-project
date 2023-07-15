@@ -435,8 +435,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
   flex-direction: column;
-  gap: 30px;
   margin: 0 auto;
+ 
+}
+.featured-flower-container > .item{
+  margin-bottom: 60px;
 }
 .service-1{
   padding: 20px 0 20px 20px;
@@ -454,10 +457,8 @@
 .featured-flower-container{
   flex-direction: column;
 }
-.featured-flower-1,
-.featured-flower-2,
-.featured-flower-3{
-  margin-bottom: 50px;
+.image-no-1,.image-no-2,.image-no-3{
+  right: 30px;
 }
 .featured-flower-container .image-no-3 {
   position: relative;
