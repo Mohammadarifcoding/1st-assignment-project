@@ -429,18 +429,43 @@
   padding: 25px;
 }
 /* service section designed */
-.service{
+.service,.featured-flower-container{
   width:70vw;
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
   flex-direction: column;
   gap: 30px;
+  margin: 0 auto;
 }
 .service-1{
   padding: 20px 0 20px 20px;
 }
+/* Featured flower section */
+.featured-title{
+  font-size: 24px;
 
+}
+.featured-description{
+  width: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.featured-flower-container{
+  flex-direction: column;
+}
+.featured-flower-1,
+.featured-flower-2,
+.featured-flower-3{
+  margin-bottom: 50px;
+}
+.featured-flower-container .image-no-3 {
+  position: relative;
+ bottom: -3px;
+}
+.featured-flower-name{
+  left: -20px;
+}
 }
 /* Tab design  */
 @media screen and (min-width:651px) and (max-width:900px) {
@@ -506,6 +531,7 @@
 .service{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
@@ -517,6 +543,26 @@
   padding-bottom: 20px;
   text-align: center;
 }
+/* Feautred flower section */
+.featured-flower-container{
+  width:auto;
+  height: auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  padding: 50px;
+  margin: 50px;
+  row-gap: 50px;
+
+}
+.featured-flower-name{
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  display: block;
+  left: 20px;
+}
 .service-1{
   margin: 0 auto;
   padding: 20px 0 20px 0px;
@@ -524,4 +570,20 @@
 .service-1:nth-child(3){
   grid-column: 1 / 3;
 }
+.featured-flower-container .item:nth-child(3){
+  grid-column: 1 / 3;
+  width: 300px;
+  margin: 0 auto;
+ 
+}
+
+.featured-flower-container .image-no-3 {
+  position: relative;
+ bottom: -3px;
+}
+
+
+
+
+
 }
