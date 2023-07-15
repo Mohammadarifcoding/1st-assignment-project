@@ -240,7 +240,7 @@
   width: 525px;
   height: 58px;
   padding: 20px;
-  margin-right: 40px;
+  margin-right: 4px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 16px;
 }
@@ -270,10 +270,11 @@
   margin-bottom: 45px;
 }
 .customer-review-container {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 40px;
+  row-gap: 40px;
+  padding: 30px;
 }
 .customer-review {
   height: 290px;
@@ -319,4 +320,173 @@
   font-size: 16px;
   font-weight: 400;
 }
+.hide{
+  display: none;
+}
 /* Footer section finished */
+/* Mobile responsive design */
+
+@media screen and (max-width:650px) {
+  /* footer section mobile design */
+  .footer-section{
+    height: 300px;
+    width: auto;
+    padding: 30px;
+  }
+  .footer-title{
+    font-size: 25px ;
+    margin-bottom: 10px;
+  }
+  .footer-description{
+    font-size: 16px;
+    width: auto;
+    padding:20px;
+
+    
+    line-height: 20px;
+
+  }
+/* Customer reveiw section mobile design */
+.review-title{
+  font-size: 26px;
+}
+.review-description{
+  width: auto;
+  padding: 20px;
+}
+.customer-review-container{
+  grid-template-columns:repeat(1,1fr);
+  justify-items: center;
+
+}
+
+/* latest deal section */
+.latest-deal-section {
+  margin-top: 300px;
+ width: auto;
+ height:auto;
+ margin: 10px;
+ padding: 25px 0px 20px 0px;
+}
+.latest-titel{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #272727;
+}
+.latest-description{
+  line-height: 10px;
+  width:max-content;
+  
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.latest-deal-section input{
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.responsive-btn{
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* Intragram section mobile design */
+
+.instragram-title{
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.instragram-description{
+  width: auto;
+  padding: 20px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.instragram-gallary{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+
+
+}
+.instragram-gallary img{
+  margin: 0 auto;
+}
+
+/* Deal section design */
+.deal{
+  margin-top: 300px;
+  width: auto;
+  flex-direction: column;
+  height: auto;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+.deal-text{
+  width: auto;
+  padding: 25px;
+}
+
+}
+/* Tab design  */
+@media screen and (min-width:651px) and (max-width:900px) {
+ 
+ /* Customer review section tab design */
+  .customer-review-container{
+    grid-template-columns:repeat(2,1fr);
+    justify-items: center;
+  
+  }
+
+  /* latest deal section */
+.latest-deal-section {
+  margin-top: 300px;
+ width: auto;
+ height:auto;
+ margin: 40px;
+ padding:50px;
+}
+.latest-titel{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #272727;
+}
+.latest-description{
+  line-height: 10px;
+  width:max-content;
+  
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.latest-deal-section input{
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.responsive-btn{
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* intragram section design */
+.instragram-gallary{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+
+}
+.instragram-gallary img{
+  margin: 0 auto;
+}
+/* Deal section designing */
+
+.deal{
+  flex-direction: column;
+  margin-top: 200px;
+  height: auto;
+  padding: 40px;
+}
+}
